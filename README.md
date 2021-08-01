@@ -9,5 +9,5 @@ I use this Home Assistant for:
 - Daily customized weather updates for my trip to work
 - Battery Levels on all devices
 
-![Preview](preview.png)
+![Preview](./Preview.png)
 
