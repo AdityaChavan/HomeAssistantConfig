@@ -1,0 +1,33 @@
+{
+    "version": 1,
+    "key": "lovelace_dashboards",
+    "data": {
+        "items": [
+            {
+                "require_admin": false,
+                "show_in_sidebar": true,
+                "title": "CustomDash1",
+                "url_path": "lovelace-customdash1",
+                "mode": "storage",
+                "id": "lovelace_customdash1"
+            },
+            {
+                "require_admin": false,
+                "show_in_sidebar": true,
+                "title": "Dash2",
+                "url_path": "lovelace-dash2",
+                "mode": "storage",
+                "id": "lovelace_dash2"
+            },
+            {
+                "require_admin": false,
+                "show_in_sidebar": true,
+                "icon": "mdi:HomeAssistant",
+                "title": "Panel 1",
+                "url_path": "panel-1",
+                "mode": "storage",
+                "id": "panel_1"
+            }
+        ]
+    }
+}

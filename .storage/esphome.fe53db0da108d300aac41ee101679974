@@ -1,0 +1,49 @@
+{
+    "version": 1,
+    "key": "esphome.fe53db0da108d300aac41ee101679974",
+    "data": {
+        "device_info": {
+            "uses_password": false,
+            "name": "esp1",
+            "mac_address": "C4:5B:BE:55:8F:D1",
+            "compilation_time": "Jul 17 2021, 15:44:13",
+            "model": "PLATFORMIO_ESP01_1M",
+            "has_deep_sleep": false,
+            "esphome_version": "1.19.4",
+            "project_name": "",
+            "project_version": ""
+        },
+        "services": [],
+        "api_version": {
+            "major": 1,
+            "minor": 5
+        },
+        "sensor": [
+            {
+                "object_id": "living_room_temperature",
+                "key": 1578816251,
+                "name": "Living Room Temperature",
+                "unique_id": "esp1sensorliving_room_temperature",
+                "icon": "",
+                "device_class": "temperature",
+                "unit_of_measurement": "\u00b0C",
+                "accuracy_decimals": 1,
+                "force_update": false,
+                "state_class": 1
+            },
+            {
+                "object_id": "living_room_humidity",
+                "key": 560453828,
+                "name": "Living Room Humidity",
+                "unique_id": "esp1sensorliving_room_humidity",
+                "icon": "",
+                "device_class": "humidity",
+                "unit_of_measurement": "%",
+                "accuracy_decimals": 1,
+                "force_update": false,
+                "state_class": 1
+            }
+        ],
+        "text_sensor": []
+    }
+}

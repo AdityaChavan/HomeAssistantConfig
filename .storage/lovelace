@@ -1,0 +1,269 @@
+{
+    "version": 1,
+    "key": "lovelace",
+    "data": {
+        "config": {
+            "title": "Cottonwood",
+            "views": [
+                {
+                    "path": "default_view",
+                    "title": "Home",
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "light.vocolinc_l2_0c9baf"
+                                },
+                                {
+                                    "entity": "binary_sensor.nas_security_status"
+                                },
+                                {
+                                    "entity": "binary_sensor.nas_update_available"
+                                },
+                                {
+                                    "entity": "sensor.nas_cpu_utilization_user"
+                                },
+                                {
+                                    "entity": "sensor.nas_cpu_utilization_total"
+                                },
+                                {
+                                    "entity": "sensor.nas_cpu_load_average_5_min"
+                                },
+                                {
+                                    "entity": "sensor.nas_cpu_load_average_15_min"
+                                },
+                                {
+                                    "entity": "sensor.nas_memory_usage_real"
+                                },
+                                {
+                                    "entity": "sensor.nas_memory_available_swap"
+                                },
+                                {
+                                    "entity": "sensor.nas_memory_available_real"
+                                },
+                                {
+                                    "entity": "sensor.nas_memory_total_swap"
+                                },
+                                {
+                                    "entity": "sensor.nas_memory_total_real"
+                                },
+                                {
+                                    "entity": "sensor.nas_network_up"
+                                },
+                                {
+                                    "entity": "sensor.nas_network_down"
+                                },
+                                {
+                                    "entity": "sensor.nas_temperature"
+                                },
+                                {
+                                    "entity": "light.vocolinc_l2_0c99a4"
+                                },
+                                {
+                                    "entity": "light.vocolinc_l2_0c9e54"
+                                },
+                                {
+                                    "entity": "light.vocolinc_l2_0c9a13"
+                                },
+                                {
+                                    "entity": "sensor.pi_hole_ads_percentage_blocked_today"
+                                },
+                                {
+                                    "entity": "sensor.pi_hole_seen_clients"
+                                },
+                                {
+                                    "entity": "sensor.pi_hole_dns_queries_today"
+                                },
+                                {
+                                    "entity": "sensor.pi_hole_domains_blocked"
+                                },
+                                {
+                                    "entity": "sensor.pi_hole_dns_queries_cached"
+                                },
+                                {
+                                    "entity": "sensor.pi_hole_dns_queries_forwarded"
+                                },
+                                {
+                                    "entity": "sensor.pi_hole_dns_unique_clients"
+                                },
+                                {
+                                    "entity": "sensor.pi_hole_dns_unique_domains"
+                                },
+                                {
+                                    "entity": "binary_sensor.pi_hole"
+                                },
+                                {
+                                    "entity": "sensor.pi_hole_ads_blocked_today"
+                                }
+                            ],
+                            "title": "Bedroom"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "sensor.cottonwood_cloud_ceiling",
+                                "sensor.cottonwood_realfeel_temperature",
+                                "sensor.cottonwood_precipitation",
+                                "sensor.cottonwood_pressure_tendency",
+                                "sensor.cottonwood_uv_index",
+                                "sensor.cottonwood_wind"
+                            ],
+                            "title": "Living Room"
+                        },
+                        {
+                            "type": "weather-forecast",
+                            "entity": "weather.cottonwood",
+                            "show_forecast": false
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "binary_sensor.rpi_power_status",
+                                "binary_sensor.updater"
+                            ],
+                            "title": "Binary sensor"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "person.aditya_chavan"
+                            ],
+                            "title": "Person"
+                        },
+                        {
+                            "type": "glance",
+                            "entities": [
+                                {
+                                    "entity": "light.vocolinc_l2_0c9baf"
+                                },
+                                {
+                                    "entity": "binary_sensor.nas_security_status"
+                                },
+                                {
+                                    "entity": "binary_sensor.nas_update_available"
+                                },
+                                {
+                                    "entity": "sensor.nas_cpu_utilization_user"
+                                },
+                                {
+                                    "entity": "sensor.nas_cpu_utilization_total"
+                                },
+                                {
+                                    "entity": "sensor.nas_cpu_load_average_5_min"
+                                },
+                                {
+                                    "entity": "sensor.nas_cpu_load_average_15_min"
+                                },
+                                {
+                                    "entity": "sensor.nas_memory_usage_real"
+                                },
+                                {
+                                    "entity": "sensor.nas_memory_available_swap"
+                                },
+                                {
+                                    "entity": "sensor.nas_memory_available_real"
+                                },
+                                {
+                                    "entity": "sensor.nas_memory_total_swap"
+                                },
+                                {
+                                    "entity": "sensor.nas_memory_total_real"
+                                },
+                                {
+                                    "entity": "sensor.nas_network_up"
+                                },
+                                {
+                                    "entity": "sensor.nas_network_down"
+                                },
+                                {
+                                    "entity": "light.vocolinc_l2_0c99a4"
+                                },
+                                {
+                                    "entity": "light.vocolinc_l2_0c9e54"
+                                },
+                                {
+                                    "entity": "light.vocolinc_l2_0c9a13"
+                                },
+                                {
+                                    "entity": "sensor.pi_hole_ads_percentage_blocked_today"
+                                },
+                                {
+                                    "entity": "sensor.pi_hole_seen_clients"
+                                },
+                                {
+                                    "entity": "sensor.pi_hole_dns_queries_today"
+                                },
+                                {
+                                    "entity": "sensor.pi_hole_domains_blocked"
+                                },
+                                {
+                                    "entity": "sensor.pi_hole_dns_queries_cached"
+                                },
+                                {
+                                    "entity": "sensor.pi_hole_dns_queries_forwarded"
+                                },
+                                {
+                                    "entity": "sensor.pi_hole_dns_unique_clients"
+                                },
+                                {
+                                    "entity": "sensor.pi_hole_dns_unique_domains"
+                                },
+                                {
+                                    "entity": "binary_sensor.pi_hole"
+                                },
+                                {
+                                    "entity": "sensor.pi_hole_ads_blocked_today"
+                                }
+                            ],
+                            "state_color": true,
+                            "columns": 6
+                        },
+                        {
+                            "type": "logbook",
+                            "entities": [
+                                "light.vocolinc_l2_0c9baf",
+                                "binary_sensor.nas_security_status",
+                                "binary_sensor.nas_update_available",
+                                "binary_sensor.nas_drive_2_exceeded_max_bad_sectors",
+                                "binary_sensor.nas_drive_2_below_min_remaining_life",
+                                "sensor.nas_cpu_utilization_user",
+                                "sensor.nas_cpu_utilization_total",
+                                "sensor.nas_cpu_load_average_5_min",
+                                "sensor.nas_cpu_load_average_15_min",
+                                "sensor.nas_memory_usage_real",
+                                "sensor.nas_memory_available_swap",
+                                "sensor.nas_memory_available_real",
+                                "sensor.nas_memory_total_swap",
+                                "sensor.nas_memory_total_real",
+                                "sensor.nas_network_up",
+                                "sensor.nas_network_down",
+                                "sensor.nas_volume_1_status",
+                                "sensor.nas_volume_1_used_space",
+                                "sensor.nas_volume_1_volume_used",
+                                "sensor.nas_volume_1_average_disk_temp",
+                                "sensor.nas_drive_2_status",
+                                "sensor.nas_drive_2_temperature",
+                                "sensor.nas_temperature",
+                                "light.vocolinc_l2_0c99a4",
+                                "light.vocolinc_l2_0c9e54",
+                                "light.vocolinc_l2_0c9a13",
+                                "sensor.pi_hole_ads_percentage_blocked_today",
+                                "sensor.pi_hole_seen_clients",
+                                "sensor.pi_hole_dns_queries_today",
+                                "sensor.pi_hole_domains_blocked",
+                                "sensor.pi_hole_dns_queries_cached",
+                                "sensor.pi_hole_dns_queries_forwarded",
+                                "sensor.pi_hole_dns_unique_clients",
+                                "sensor.pi_hole_dns_unique_domains",
+                                "binary_sensor.pi_hole",
+                                "sensor.pi_hole_ads_blocked_today"
+                            ],
+                            "hours_to_show": 24
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

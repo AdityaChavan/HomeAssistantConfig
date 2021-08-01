@@ -1,0 +1,507 @@
+{
+    "version": 1,
+    "key": "lovelace.panel_1",
+    "data": {
+        "config": {
+            "views": [
+                {
+                    "title": "Home",
+                    "panel": true,
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "vertical-stack",
+                            "cards": [
+                                {
+                                    "type": "history-graph",
+                                    "entities": [
+                                        {
+                                            "entity": "sensor.openweathermap_condition"
+                                        },
+                                        {
+                                            "entity": "sensor.openweathermap_weather"
+                                        },
+                                        {
+                                            "entity": "weather.cottonwood"
+                                        },
+                                        {
+                                            "entity": "sun.sun"
+                                        }
+                                    ],
+                                    "hours_to_show": 24,
+                                    "refresh_interval": 0,
+                                    "title": "Weather"
+                                },
+                                {
+                                    "type": "horizontal-stack",
+                                    "cards": [
+                                        {
+                                            "type": "history-graph",
+                                            "entities": [
+                                                {
+                                                    "entity": "sensor.openweathermap_feels_like_temperature"
+                                                },
+                                                {
+                                                    "entity": "sensor.living_room_temperature"
+                                                },
+                                                {
+                                                    "entity": "sensor.openweathermap_temperature"
+                                                }
+                                            ],
+                                            "hours_to_show": 24,
+                                            "refresh_interval": 0
+                                        },
+                                        {
+                                            "type": "glance",
+                                            "entities": [
+                                                {
+                                                    "entity": "sensor.openweathermap_forecast_condition"
+                                                },
+                                                {
+                                                    "entity": "sensor.openweathermap_forecast_precipitation_probability"
+                                                },
+                                                {
+                                                    "entity": "sensor.openweathermap_forecast_precipitation"
+                                                },
+                                                {
+                                                    "entity": "sensor.openweathermap_forecast_temperature"
+                                                },
+                                                {
+                                                    "entity": "sensor.openweathermap_forecast_wind_speed"
+                                                },
+                                                {
+                                                    "entity": "sensor.openweathermap_forecast_time"
+                                                }
+                                            ],
+                                            "columns": 2,
+                                            "state_color": true,
+                                            "title": "Forecast"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "grid",
+                                    "cards": [
+                                        {
+                                            "type": "entity",
+                                            "entity": "sensor.openweathermap_cloud_coverage"
+                                        },
+                                        {
+                                            "type": "entity",
+                                            "entity": "sensor.openweathermap_condition"
+                                        },
+                                        {
+                                            "type": "entity",
+                                            "entity": "sensor.openweathermap_dew_point"
+                                        },
+                                        {
+                                            "type": "entity",
+                                            "entity": "sensor.openweathermap_feels_like_temperature"
+                                        },
+                                        {
+                                            "type": "entity",
+                                            "entity": "sensor.openweathermap_humidity"
+                                        },
+                                        {
+                                            "type": "entity",
+                                            "entity": "sensor.openweathermap_precipitation_kind"
+                                        },
+                                        {
+                                            "type": "entity",
+                                            "entity": "sensor.openweathermap_pressure"
+                                        },
+                                        {
+                                            "type": "entity",
+                                            "entity": "sensor.openweathermap_uv_index"
+                                        },
+                                        {
+                                            "type": "entity",
+                                            "entity": "sensor.openweathermap_wind_speed"
+                                        },
+                                        {
+                                            "type": "entity",
+                                            "entity": "sensor.openweathermap_weather"
+                                        },
+                                        {
+                                            "type": "entity",
+                                            "entity": "sensor.openweathermap_wind_bearing"
+                                        },
+                                        {
+                                            "type": "entity",
+                                            "entity": "sensor.openweathermap_forecast_condition"
+                                        }
+                                    ],
+                                    "columns": 6,
+                                    "square": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "panel": true,
+                    "title": "Bedroom",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "vertical-stack",
+                            "cards": [
+                                {
+                                    "type": "horizontal-stack",
+                                    "cards": [
+                                        {
+                                            "type": "grid",
+                                            "cards": [
+                                                {
+                                                    "type": "iframe",
+                                                    "aspect_ratio": "65%",
+                                                    "url": "https://www.clocktab.com/#large-font-edit-3/eyJzdWJhcHBfaWQiOiJjbG9jayIsInByZXNldF9pZCI6ImxhcmdlLWZvbnQtZWRpdC0zIiwicHJlc2V0X3ZhbHVlcyI6eyJjbG9ja19iYWNrZ3JvdW5kX2ltYWdlIjoiIiwiY2xvY2tfYmFja2dyb3VuZF9jb2xvciI6IiMxYzFjMWMiLCJjbG9ja19mb250IjoiQWxsZXJ0YSBTdGVuY2lsIiwiY2xvY2tfc2hhZG93Ijoibm9uZSIsImNsb2NrX2NvbG9yIjoiIzliOWI5YiIsImNsb2NrX3NpemUiOiIxMDAwIiwiY2xvY2tfcG9zaXRpb24iOiJjZW50ZXIifX0="
+                                                }
+                                            ],
+                                            "columns": 1,
+                                            "square": false
+                                        },
+                                        {
+                                            "type": "vertical-stack",
+                                            "cards": [
+                                                {
+                                                    "type": "horizontal-stack",
+                                                    "cards": [
+                                                        {
+                                                            "type": "media-control",
+                                                            "entity": "media_player.spotify_aditya"
+                                                        },
+                                                        {
+                                                            "type": "weather-forecast",
+                                                            "entity": "weather.openweathermap",
+                                                            "show_forecast": true,
+                                                            "secondary_info_attribute": "humidity"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "horizontal-stack",
+                                                    "cards": [
+                                                        {
+                                                            "type": "vertical-stack",
+                                                            "cards": [
+                                                                {
+                                                                    "type": "grid",
+                                                                    "cards": [
+                                                                        {
+                                                                            "type": "button",
+                                                                            "tap_action": {
+                                                                                "action": "toggle"
+                                                                            },
+                                                                            "entity": "light.vocolinc_l2_0c99a4",
+                                                                            "show_name": true,
+                                                                            "show_state": true,
+                                                                            "icon_height": "70px"
+                                                                        },
+                                                                        {
+                                                                            "type": "button",
+                                                                            "tap_action": {
+                                                                                "action": "toggle"
+                                                                            },
+                                                                            "entity": "light.vocolinc_l2_0c9baf",
+                                                                            "show_state": true,
+                                                                            "icon_height": "70px"
+                                                                        },
+                                                                        {
+                                                                            "type": "button",
+                                                                            "tap_action": {
+                                                                                "action": "toggle"
+                                                                            },
+                                                                            "entity": "light.vocolinc_l2_0c9a13",
+                                                                            "show_state": true,
+                                                                            "icon_height": "70px"
+                                                                        },
+                                                                        {
+                                                                            "type": "button",
+                                                                            "tap_action": {
+                                                                                "action": "toggle"
+                                                                            },
+                                                                            "entity": "light.vocolinc_l2_0c9e54",
+                                                                            "show_state": true,
+                                                                            "icon_height": "70px"
+                                                                        }
+                                                                    ],
+                                                                    "columns": 4,
+                                                                    "square": false
+                                                                },
+                                                                {
+                                                                    "type": "grid",
+                                                                    "cards": [
+                                                                        {
+                                                                            "type": "button",
+                                                                            "tap_action": {
+                                                                                "action": "toggle"
+                                                                            },
+                                                                            "entity": "light.8844664268c63ade2a6b",
+                                                                            "show_name": true,
+                                                                            "show_state": true,
+                                                                            "icon_height": "60px"
+                                                                        },
+                                                                        {
+                                                                            "type": "button",
+                                                                            "tap_action": {
+                                                                                "action": "toggle"
+                                                                            },
+                                                                            "entity": "switch.03200001dc4f22201979",
+                                                                            "show_name": true,
+                                                                            "show_state": true,
+                                                                            "icon_height": "60px"
+                                                                        }
+                                                                    ],
+                                                                    "columns": 4
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "vertical-stack",
+                                                            "cards": [
+                                                                {
+                                                                    "type": "glance",
+                                                                    "entities": [
+                                                                        {
+                                                                            "entity": "binary_sensor.oneplus_a5000_is_charging"
+                                                                        },
+                                                                        {
+                                                                            "entity": "binary_sensor.galaxy_tab_is_charging"
+                                                                        },
+                                                                        {
+                                                                            "entity": "binary_sensor.sm_g998u1_is_charging"
+                                                                        }
+                                                                    ],
+                                                                    "state_color": true,
+                                                                    "show_state": true,
+                                                                    "show_icon": true,
+                                                                    "show_name": true,
+                                                                    "columns": 3
+                                                                },
+                                                                {
+                                                                    "type": "glance",
+                                                                    "entities": [
+                                                                        {
+                                                                            "entity": "binary_sensor.pi_hole"
+                                                                        },
+                                                                        {
+                                                                            "entity": "sensor.nas_drive_2_status"
+                                                                        },
+                                                                        {
+                                                                            "entity": "binary_sensor.rpi_power_status"
+                                                                        }
+                                                                    ],
+                                                                    "state_color": true,
+                                                                    "show_state": true,
+                                                                    "show_icon": true,
+                                                                    "show_name": true,
+                                                                    "columns": 3
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "horizontal-stack",
+                                    "cards": [
+                                        {
+                                            "type": "history-graph",
+                                            "entities": [
+                                                {
+                                                    "entity": "sensor.living_room_temperature"
+                                                },
+                                                {
+                                                    "entity": "sensor.openweathermap_temperature"
+                                                }
+                                            ],
+                                            "hours_to_show": 24,
+                                            "refresh_interval": 0,
+                                            "title": "Temperature"
+                                        },
+                                        {
+                                            "type": "history-graph",
+                                            "entities": [
+                                                {
+                                                    "entity": "sensor.living_room_humidity"
+                                                },
+                                                {
+                                                    "entity": "sensor.openweathermap_humidity"
+                                                }
+                                            ],
+                                            "hours_to_show": 24,
+                                            "refresh_interval": 0,
+                                            "title": "Humidity"
+                                        },
+                                        {
+                                            "type": "history-graph",
+                                            "entities": [
+                                                {
+                                                    "entity": "sensor.oneplus_a5000_battery_level"
+                                                },
+                                                {
+                                                    "entity": "sensor.sm_g998u1_battery_level"
+                                                },
+                                                {
+                                                    "entity": "sensor.galaxy_tab_battery_level"
+                                                }
+                                            ],
+                                            "refresh_interval": 0,
+                                            "title": "Battery Levels",
+                                            "hours_to_show": 24
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Network",
+                    "path": "network",
+                    "panel": true,
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "vertical-stack",
+                                    "title": "DNS Ad Blocker",
+                                    "cards": [
+                                        {
+                                            "type": "gauge",
+                                            "entity": "sensor.pi_hole_ads_percentage_blocked_today",
+                                            "min": 0,
+                                            "max": 100,
+                                            "severity": {
+                                                "green": 0,
+                                                "yellow": 0,
+                                                "red": 100
+                                            }
+                                        },
+                                        {
+                                            "entities": [
+                                                {
+                                                    "entity": "sensor.pi_hole_domains_blocked"
+                                                },
+                                                {
+                                                    "entity": "sensor.pi_hole_dns_queries_today",
+                                                    "name": "DNS Queries Today"
+                                                },
+                                                {
+                                                    "entity": "sensor.pi_hole_ads_blocked_today",
+                                                    "name": "Ads Blocked Today"
+                                                },
+                                                {
+                                                    "entity": "sensor.pi_hole_dns_unique_domains"
+                                                },
+                                                {
+                                                    "entity": "sensor.pi_hole_dns_queries_cached"
+                                                },
+                                                {
+                                                    "entity": "sensor.pi_hole_dns_unique_clients",
+                                                    "name": "DNS Unique Clients"
+                                                }
+                                            ],
+                                            "show_header_toggle": false,
+                                            "type": "entities",
+                                            "title": "Pi-Hole"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "horizontal-stack",
+                                    "title": "NAS",
+                                    "cards": [
+                                        {
+                                            "type": "vertical-stack",
+                                            "cards": [
+                                                {
+                                                    "type": "history-graph",
+                                                    "entities": [
+                                                        {
+                                                            "entity": "sensor.nas_temperature"
+                                                        },
+                                                        {
+                                                            "entity": "sensor.nas_drive_2_temperature"
+                                                        }
+                                                    ],
+                                                    "hours_to_show": 24,
+                                                    "refresh_interval": 0
+                                                },
+                                                {
+                                                    "type": "history-graph",
+                                                    "entities": [
+                                                        {
+                                                            "entity": "sensor.nas_network_up"
+                                                        },
+                                                        {
+                                                            "entity": "sensor.nas_network_down"
+                                                        }
+                                                    ],
+                                                    "hours_to_show": 24,
+                                                    "refresh_interval": 0
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "vertical-stack",
+                                            "cards": [
+                                                {
+                                                    "type": "entities",
+                                                    "entities": [
+                                                        {
+                                                            "entity": "binary_sensor.nas_security_status"
+                                                        },
+                                                        {
+                                                            "entity": "binary_sensor.nas_update_available"
+                                                        },
+                                                        {
+                                                            "entity": "sensor.nas_cpu_load_average_15_min"
+                                                        },
+                                                        {
+                                                            "entity": "sensor.nas_memory_usage_real"
+                                                        },
+                                                        {
+                                                            "entity": "sensor.nas_cpu_utilization_total"
+                                                        },
+                                                        {
+                                                            "entity": "sensor.nas_temperature"
+                                                        }
+                                                    ],
+                                                    "state_color": true
+                                                },
+                                                {
+                                                    "type": "history-graph",
+                                                    "entities": [
+                                                        {
+                                                            "entity": "binary_sensor.nas_security_status"
+                                                        },
+                                                        {
+                                                            "entity": "sensor.nas_drive_2_status"
+                                                        },
+                                                        {
+                                                            "entity": "sensor.nas_volume_1_status"
+                                                        }
+                                                    ],
+                                                    "hours_to_show": 24,
+                                                    "refresh_interval": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "columns": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

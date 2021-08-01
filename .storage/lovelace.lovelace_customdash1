@@ -1,0 +1,170 @@
+{
+    "version": 1,
+    "key": "lovelace.lovelace_customdash1",
+    "data": {
+        "config": {
+            "title": "Cottonwood",
+            "views": [
+                {
+                    "path": "default_view",
+                    "title": "Home",
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "sensor.sm_g998u1_battery_level"
+                                },
+                                {
+                                    "entity": "sensor.sm_g998u1_battery_state"
+                                },
+                                {
+                                    "entity": "sensor.oneplus_a5000_battery_level"
+                                },
+                                {
+                                    "entity": "sensor.oneplus_a5000_battery_state"
+                                },
+                                {
+                                    "entity": "sensor.nas_volume_1_status"
+                                },
+                                {
+                                    "entity": "binary_sensor.pi_hole"
+                                }
+                            ],
+                            "title": "Devices Overview",
+                            "state_color": true
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "light.vocolinc_l2_0c9baf",
+                                    "secondary_info": "brightness"
+                                },
+                                {
+                                    "entity": "light.vocolinc_l2_0c9e54"
+                                },
+                                {
+                                    "entity": "light.vocolinc_l2_0c9a13"
+                                },
+                                {
+                                    "entity": "light.vocolinc_l2_0c99a4"
+                                }
+                            ],
+                            "title": "Bedroom",
+                            "state_color": true
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "sensor.cottonwood_cloud_ceiling"
+                                },
+                                {
+                                    "entity": "sensor.cottonwood_realfeel_temperature"
+                                },
+                                {
+                                    "entity": "sensor.cottonwood_wind"
+                                }
+                            ],
+                            "title": "House",
+                            "state_color": true
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "light.8844664268c63ade2a6b"
+                                }
+                            ],
+                            "title": "Living Room"
+                        },
+                        {
+                            "type": "weather-forecast",
+                            "entity": "weather.cottonwood",
+                            "show_forecast": false
+                        },
+                        {
+                            "type": "history-graph",
+                            "entities": [
+                                {
+                                    "entity": "sensor.oneplus_a5000_battery_level"
+                                },
+                                {
+                                    "entity": "sensor.sm_g998u1_battery_level"
+                                },
+                                {
+                                    "entity": "sensor.galaxy_tab_battery_level"
+                                }
+                            ],
+                            "refresh_interval": 0,
+                            "title": "Battery Levels",
+                            "hours_to_show": 48
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.spotify_aditya"
+                        },
+                        {
+                            "type": "vertical-stack",
+                            "cards": [
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.living_room_temperature",
+                                    "graph": "line",
+                                    "hours_to_show": 48
+                                },
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.living_room_humidity",
+                                    "graph": "line",
+                                    "hours_to_show": 48
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "switch.03200001dc4f22201979"
+                                }
+                            ],
+                            "title": "Kitchen"
+                        },
+                        {
+                            "type": "iframe",
+                            "aspect_ratio": "60%",
+                            "url": "https://www.clocktab.com/#large-font-edit/eyJzdWJhcHBfaWQiOiJjbG9jayIsInByZXNldF9pZCI6ImxhcmdlLWZvbnQtZWRpdCIsInByZXNldF92YWx1ZXMiOnsiY2xvY2tfYmFja2dyb3VuZF9pbWFnZSI6IiIsImNsb2NrX2JhY2tncm91bmRfY29sb3IiOiIjMDAwMDAwIiwiY2xvY2tfZm9udCI6IkFpcmJuYkNlcmVhbCIsImNsb2NrX3NoYWRvdyI6Im5vbmUiLCJjbG9ja19jb2xvciI6IiNhM2EzYTMiLCJjbG9ja19zaXplIjoiMTAwMCIsImNsb2NrX3Bvc2l0aW9uIjoiY2VudGVyIn19"
+                        },
+                        {
+                            "type": "sensor",
+                            "entity": "sensor.nas_temperature",
+                            "detail": 2,
+                            "graph": "line"
+                        },
+                        {
+                            "type": "horizontal-stack",
+                            "cards": [
+                                {
+                                    "type": "glance",
+                                    "entities": [
+                                        {
+                                            "entity": "binary_sensor.galaxy_tab_is_charging"
+                                        },
+                                        {
+                                            "entity": "binary_sensor.oneplus_a5000_is_charging"
+                                        },
+                                        {
+                                            "entity": "binary_sensor.sm_g998u1_is_charging"
+                                        }
+                                    ],
+                                    "state_color": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

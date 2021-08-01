@@ -1,0 +1,39 @@
+esphome:
+  name: esp1
+  platform: ESP8266
+  board: esp01_1m
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+ota:
+  password: "edfe6f64b956b8c1183226a52d14238a"
+
+wifi:
+  ssid: "HiMyNameIsAdi"
+  password: "adityasanjayChavan"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Hotspot"
+    password: "3ydeEFLJkZP2"
+
+captive_portal:
+
+i2c:
+  sda: 4
+  scl: 5
+  scan: True
+  id: bus_a
+  
+sensor:
+  - platform: htu21d
+    temperature:
+      name: "Living Room Temperature"
+    humidity:
+      name: "Living Room Humidity"
+    update_interval: 60s
+  

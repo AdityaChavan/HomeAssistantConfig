@@ -1,0 +1,411 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "e17da096d2cb3d17304cbc2d70b382a3",
+                "version": 1,
+                "domain": "hassio",
+                "title": "Supervisor",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "system",
+                "unique_id": "hassio",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "f2fca58541d0a8f7af346bfd739d36ff",
+                "version": 1,
+                "domain": "rpi_power",
+                "title": "Raspberry Pi Power Supply Checker",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "onboarding",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "beddb796b14633f42b4ef9eeeba96e7f",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "SM-G998U1",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "2021.6.2-full (694)",
+                    "device_name": "SM-G998U1",
+                    "manufacturer": "samsung",
+                    "model": "SM-G998U1",
+                    "os_name": "Android",
+                    "os_version": "30",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+                        "push_token": "dw21rZ-WSDu4V02ivwgics:APA91bHzfUedrVQiZGxJ7Pjw7Tox495iKwcKDKXZmYuOfdg-2g_9kZnS1i_FuiVNPmzB9BCmgfYGuf1ZVhF3mmtK64lvQ6mjGI5MGxGTaI4WLP4-NCyrhP7RtrrU061N4ld_CAVcKCgS"
+                    },
+                    "device_id": "7562f1ca5b154d77",
+                    "webhook_id": "c11e42b22e9e07808f7f23d9ee6f806be44653a59473230af58278f5c9db2a98",
+                    "user_id": "02803ca524344926b738319e76b82cbe"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.homeassistant.companion.android-7562f1ca5b154d77",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "50f3201d233afa1fdfad1279367e9cfc",
+                "version": 1,
+                "domain": "homekit_controller",
+                "title": "VOCOlinc-L2-0c9baf",
+                "data": {
+                    "AccessoryPairingID": "F9:6D:04:B1:A2:8F",
+                    "AccessoryLTPK": "2a8f73a6db7468821ec3dc44fac791dad358f471cedc5e13c7210f827d55ef8c",
+                    "iOSPairingId": "c4029dcb-2c18-4b65-bd6c-9c6cd0dadfbf",
+                    "iOSDeviceLTSK": "4c9fc7eb126f740896ae6fee5d9c065af1c8f8808742e02872b516feeb3faf07",
+                    "iOSDeviceLTPK": "288a8446fe92ebfd9e645a4036cac6b55bddf034f004ee4653b2f63a52fc238b",
+                    "AccessoryIP": "192.168.1.205",
+                    "AccessoryPort": 80,
+                    "Connection": "IP"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "f9:6d:04:b1:a2:8f",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "2ab41e64b79f9f661c8f5cd45b3d1e02",
+                "version": 1,
+                "domain": "synology_dsm",
+                "title": "192.168.1.253",
+                "data": {
+                    "host": "192.168.1.253",
+                    "port": 5001,
+                    "ssl": true,
+                    "verify_ssl": false,
+                    "username": "Aditya Chavan",
+                    "password": "Asc$08101995",
+                    "mac": [
+                        "00-11-32-F4-0F-09",
+                        "00-11-32-F4-0F-0A"
+                    ]
+                },
+                "options": {
+                    "scan_interval": 15,
+                    "timeout": 10
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "ssdp",
+                "unique_id": "2130RLR6M2N16",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "57188c07e96fe8a2b0bf46c1e42c92fa",
+                "version": 1,
+                "domain": "homekit_controller",
+                "title": "VOCOlinc-L2-0c99a4",
+                "data": {
+                    "AccessoryPairingID": "CA:44:0A:EF:2D:84",
+                    "AccessoryLTPK": "9f0c45cbd2a2ab1684b92d5a8e28d7657f5546ab646b7759c4d1fed2b3660697",
+                    "iOSPairingId": "4633d23f-2b90-441d-8036-f5b38feea681",
+                    "iOSDeviceLTSK": "10c4d4ed9343d2928fc213fbe4bf782bfec3bad17c04f54a0f6a2290464f363e",
+                    "iOSDeviceLTPK": "529c167c1cf2646638cbdeeff9f00c15ab163f8d2640ab0e10056c78fa14b912",
+                    "AccessoryIP": "192.168.1.227",
+                    "AccessoryPort": 80,
+                    "Connection": "IP"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "ca:44:0a:ef:2d:84",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "6ce99c2adfc6162ee9948f013c19dcdc",
+                "version": 1,
+                "domain": "homekit_controller",
+                "title": "VOCOlinc-L2-0c9e54",
+                "data": {
+                    "AccessoryPairingID": "DE:31:69:35:2D:B1",
+                    "AccessoryLTPK": "873b22b2febc901ce7fc933374e911a87839abe92900f64d6cbb67fb130843d5",
+                    "iOSPairingId": "8013ef40-616d-40d1-a72d-a85c480eb62f",
+                    "iOSDeviceLTSK": "79cdf3c77461ef94081e6287f4d8546d695749d90ec9e278bc71e35e7db47055",
+                    "iOSDeviceLTPK": "4408a75091810a076c42fcb0d56dab26a062ee060bb145f5de8ba26359005df0",
+                    "AccessoryIP": "192.168.1.230",
+                    "AccessoryPort": 80,
+                    "Connection": "IP"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "de:31:69:35:2d:b1",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "fe4b3a2fd4bca6df1cd843e2a9b47b71",
+                "version": 1,
+                "domain": "homekit_controller",
+                "title": "VOCOlinc-L2-0c9a13",
+                "data": {
+                    "AccessoryPairingID": "A8:32:62:27:72:DE",
+                    "AccessoryLTPK": "fa6adda62275f4b217de69c7b4d3803cd77ee82d6e29a33f246e4ff3ddf444eb",
+                    "iOSPairingId": "98e25f99-ceb5-4694-ba6d-ad47f5f7ece5",
+                    "iOSDeviceLTSK": "dac063a481624046ae9e2d94caacc4a6006d3c1dcbe901ca74d61ff4406a5346",
+                    "iOSDeviceLTPK": "1a25b0958e48af9f246d0783115fa13e886d5a71dd31378f1b61082344faa96f",
+                    "AccessoryIP": "192.168.1.219",
+                    "AccessoryPort": 80,
+                    "Connection": "IP"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "a8:32:62:27:72:de",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "8493f3aafbc9e244836ed658ba2dd401",
+                "version": 1,
+                "domain": "synology_dsm",
+                "title": "NAS (192.168.1.252)",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "ignore",
+                "unique_id": "001132F40F0A",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "321eb5806f9e0f0278436f112e8448b8",
+                "version": 1,
+                "domain": "pi_hole",
+                "title": "Pi-Hole",
+                "data": {
+                    "host": "192.168.1.238:80",
+                    "name": "Pi-Hole",
+                    "location": "admin",
+                    "ssl": false,
+                    "verify_ssl": true,
+                    "statistics_only": true
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "e8f2d847d727eee4be5ff577ea8037ed",
+                "version": 1,
+                "domain": "accuweather",
+                "title": "Cottonwood",
+                "data": {
+                    "latitude": 33.787890658193795,
+                    "longitude": -84.41149681806566,
+                    "name": "Cottonwood",
+                    "api_key": "S1g7ImYaEGXXfP2i6Q88z0buwg3AjAVe"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "2625815",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "e04ab5e9e8f73d6f048ab74650cc9a72",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "ONEPLUS A5000",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "2021.6.2-full (694)",
+                    "device_name": "ONEPLUS A5000",
+                    "manufacturer": "OnePlus",
+                    "model": "ONEPLUS A5000",
+                    "os_name": "Android",
+                    "os_version": "28",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+                        "push_token": "cMURwyJ-Smm_RwsnIqRgox:APA91bF270oRBydGOKUzv5fWKGIXcLHS1MhHdLCQCN8Yx2QOEN1qC81G9R-1CqJdfoaG-uq2n5TV9pi8fFj3L8z7ijtNdgRWxt54rHKkppbwnjtu5NRvj_3N9JAIor77KUSwLG-JCnsB"
+                    },
+                    "device_id": "1d3c7adab3d6e1e0",
+                    "webhook_id": "4284779a0f532d148a5bbe3bc4a4a51ff8eac05ec11a7d46962e8580adbe547a",
+                    "user_id": "02803ca524344926b738319e76b82cbe"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.homeassistant.companion.android-1d3c7adab3d6e1e0",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "b3e8de028089414dc403e0c9250a9f3f",
+                "version": 1,
+                "domain": "spotify",
+                "title": "Aditya",
+                "data": {
+                    "auth_implementation": "spotify",
+                    "token": {
+                        "access_token": "BQBHz3cg0KevVqrN5gucJ0gexLtZ0NQ-A0kYM9PkE-WBYhNr_EzIC1yBydMn6035C6KkTQdvKqX4SA-smGT78FfnOokLa_XJ53SBeq9-k6Ev29_07VViIY2tM1pvYokNVXnfgZ-t4GMwVriiYok1X9jun9pm_Qkc_6cCSNdjZXZaL98GzKuwemVtXp4Yf1y2CG5EyDhGviJC-7DrtungzOMyJDDMtwK5nA",
+                        "token_type": "Bearer",
+                        "expires_in": 3600,
+                        "refresh_token": "AQDGlVZ6IzWpBto7C0-g0b7xI7Kns0fBzsaxO6nuLsSAXML_WuVJBM5s6XbubJcqJ2MgAK-Y4SCs7zw_75m1heYSnBWsx695e7bOn12XohzEj-JowSYW-zgUpb4xI3GGS9U",
+                        "scope": "playlist-read-private playlist-read-collaborative user-modify-playback-state user-library-read user-follow-read user-read-playback-state user-read-recently-played user-read-playback-position user-read-private user-top-read",
+                        "expires_at": 1627848167.66091
+                    },
+                    "id": "35zsxj3cfof6h0kbme7lfuy6x",
+                    "name": "Aditya"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "35zsxj3cfof6h0kbme7lfuy6x",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "e3ade0e338984a82602f1b8ea551306c",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Galaxy Tab",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "2021.6.2-full (694)",
+                    "device_name": "Galaxy Tab",
+                    "manufacturer": "samsung",
+                    "model": "SM-T510",
+                    "os_name": "Android",
+                    "os_version": "30",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+                        "push_token": "fSqFUulrSUO9kxUT2IlWn8:APA91bE54FFx1eUi72VKcmurWPKvlcLx5iCan2fAyYgV6WyKWD-rfReSp51nWZ-RZqagWn8rNs6B6XTYYFAqWKS1aSC76r-ZyovWRsqfCo0QXV9RnYhh8TGVqUZbrYWs74nU77vhxmRg"
+                    },
+                    "device_id": "3f847d24ffd5bc56",
+                    "webhook_id": "c91995bad6be02d1a0fcb4f4d0566afc592352d4130bcef1df5a8de5a8d23868",
+                    "user_id": "02803ca524344926b738319e76b82cbe"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.homeassistant.companion.android-3f847d24ffd5bc56",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "05c20eb15c7b2742b4c56247edbd6d54",
+                "version": 1,
+                "domain": "xiaomi_miio",
+                "title": "Roborock S5",
+                "data": {
+                    "config_flow_device": "device",
+                    "host": "192.168.1.110",
+                    "token": "704e506338764f6e596b596839566437",
+                    "model": "roborock.vacuum.s5",
+                    "mac": "50:ec:50:0d:a8:7c",
+                    "cloud_username": "adityasc08@gmail.com",
+                    "cloud_password": "Asc08101995",
+                    "cloud_country": "us"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "50:ec:50:0d:a8:7c",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "abe3813c839e46b3bfab8e919bd9a99b",
+                "version": 1,
+                "domain": "tuya",
+                "title": "adityasc08@gmail.com",
+                "data": {
+                    "country_code": "1",
+                    "password": "@XZuXypx@8Tvp$4",
+                    "platform": "tuya",
+                    "username": "adityasc08@gmail.com"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "818b2bbe6a30663c4fb8ca4951d069d9",
+                "version": 1,
+                "domain": "tile",
+                "title": "adityasc08@gmail.com",
+                "data": {
+                    "password": "08101995",
+                    "username": "adityasc08@gmail.com"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "adityasc08@gmail.com",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "fe53db0da108d300aac41ee101679974",
+                "version": 1,
+                "domain": "esphome",
+                "title": "esp1",
+                "data": {
+                    "host": "192.168.1.99",
+                    "port": 6053,
+                    "password": ""
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "esp1",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "3fa0c169088fb9b7b54c8eed8d975004",
+                "version": 2,
+                "domain": "openweathermap",
+                "title": "OpenWeatherMap",
+                "data": {
+                    "name": "OpenWeatherMap",
+                    "latitude": 33.78590665669923,
+                    "longitude": -84.41126883029939,
+                    "mode": "onecall_daily",
+                    "language": "en",
+                    "api_key": "626061e73cc0b1075685afb3a596998f"
+                },
+                "options": {
+                    "mode": "hourly",
+                    "language": "en"
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "33.78590665669923--84.41126883029939",
+                "disabled_by": null
+            }
+        ]
+    }
+}

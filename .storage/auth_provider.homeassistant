@@ -1,0 +1,12 @@
+{
+    "version": 1,
+    "key": "auth_provider.homeassistant",
+    "data": {
+        "users": [
+            {
+                "username": "aditya",
+                "password": "JDJiJDEyJDFFYnpuTUNQd2tqa2JvQU4zUHdOL3U0TU93S2ZjRE1zM3ZUNWgxSE9aUG1tNmd3ZXExMGtH"
+            }
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "Aditya Chavan",
+                "user_id": "02803ca524344926b738319e76b82cbe",
+                "device_trackers": [
+                    "device_tracker.sm_g998u1",
+                    "device_tracker.oneplus_a5000",
+                    "device_tracker.galaxy_tab"
+                ],
+                "id": "aditya_chavan"
+            }
+        ]
+    }
+}

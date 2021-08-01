@@ -1,0 +1,588 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "e17da096d2cb3d17304cbc2d70b382a3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "OS"
+                    ]
+                ],
+                "manufacturer": "Home Assistant",
+                "model": "Home Assistant Operating System",
+                "name": "Home Assistant Operating System",
+                "sw_version": "6.1",
+                "entry_type": "service",
+                "id": "dd94d07db3c55da6390494e27cd94ad9",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "beddb796b14633f42b4ef9eeeba96e7f"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "7562f1ca5b154d77"
+                    ]
+                ],
+                "manufacturer": "samsung",
+                "model": "SM-G998U1",
+                "name": "SM-G998U1",
+                "sw_version": "30",
+                "entry_type": null,
+                "id": "9802b649bc548ea31827f8f3753417cd",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "50f3201d233afa1fdfad1279367e9cfc"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "AM01091815000965"
+                    ],
+                    [
+                        "homekit_controller",
+                        "accessory-id",
+                        "F9:6D:04:B1:A2:8F"
+                    ]
+                ],
+                "manufacturer": "VOCOlinc",
+                "model": "L2",
+                "name": "VOCOlinc-L2-0c9baf",
+                "sw_version": "3.124.2",
+                "entry_type": null,
+                "id": "e4669e24ea835194a60cbb285a214bc1",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "2ab41e64b79f9f661c8f5cd45b3d1e02"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "synology_dsm",
+                        "2130RLR6M2N16"
+                    ]
+                ],
+                "manufacturer": "Synology",
+                "model": "DS220+",
+                "name": "Synology NAS",
+                "sw_version": "DSM 6.2.4-25556",
+                "entry_type": null,
+                "id": "fea6166afa96974bb2f03f7df05d119e",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "2ab41e64b79f9f661c8f5cd45b3d1e02"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "synology_dsm",
+                        "2130RLR6M2N16_sata1"
+                    ]
+                ],
+                "manufacturer": "WDC     ",
+                "model": "WD40EFZX-68AWUN0",
+                "name": "Synology NAS (Drive 2 - SATA)",
+                "sw_version": "81.00A81",
+                "entry_type": null,
+                "id": "0cbf05edd04d3b4c00b888d2f773070f",
+                "via_device_id": "fea6166afa96974bb2f03f7df05d119e",
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "2ab41e64b79f9f661c8f5cd45b3d1e02"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "synology_dsm",
+                        "2130RLR6M2N16_volume_1"
+                    ]
+                ],
+                "manufacturer": "Synology",
+                "model": "DS220+",
+                "name": "Synology NAS (Volume 1 - SHR without disk protect)",
+                "sw_version": "DSM 6.2.4-25556",
+                "entry_type": null,
+                "id": "fcd0dd09310f8440de5d3fa15ca3511d",
+                "via_device_id": "fea6166afa96974bb2f03f7df05d119e",
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "57188c07e96fe8a2b0bf46c1e42c92fa"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "accessory-id",
+                        "CA:44:0A:EF:2D:84"
+                    ],
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "AM01091815000442"
+                    ]
+                ],
+                "manufacturer": "VOCOlinc",
+                "model": "L2",
+                "name": "VOCOlinc-L2-0c99a4",
+                "sw_version": "3.124.2",
+                "entry_type": null,
+                "id": "b436b9f7c98e441053f499b4c211568d",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "6ce99c2adfc6162ee9948f013c19dcdc"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "AM01091815001642"
+                    ],
+                    [
+                        "homekit_controller",
+                        "accessory-id",
+                        "DE:31:69:35:2D:B1"
+                    ]
+                ],
+                "manufacturer": "VOCOlinc",
+                "model": "L2",
+                "name": "VOCOlinc-L2-0c9e54",
+                "sw_version": "3.124.2",
+                "entry_type": null,
+                "id": "e2d90f1daf2694c572cabd6170e15a2a",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "fe4b3a2fd4bca6df1cd843e2a9b47b71"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "AM01091815000553"
+                    ],
+                    [
+                        "homekit_controller",
+                        "accessory-id",
+                        "A8:32:62:27:72:DE"
+                    ]
+                ],
+                "manufacturer": "VOCOlinc",
+                "model": "L2",
+                "name": "VOCOlinc-L2-0c9a13",
+                "sw_version": "3.124.2",
+                "entry_type": null,
+                "id": "a8fec8437e0ee5da71816bdc820c6ebd",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "321eb5806f9e0f0278436f112e8448b8"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "pi_hole",
+                        "321eb5806f9e0f0278436f112e8448b8"
+                    ]
+                ],
+                "manufacturer": "Pi-hole",
+                "model": null,
+                "name": "Pi-Hole",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "e6257c9086da5ee8f053aa8065f5da52",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e8f2d847d727eee4be5ff577ea8037ed"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "accuweather",
+                        "2625815"
+                    ]
+                ],
+                "manufacturer": "AccuWeather, Inc.",
+                "model": null,
+                "name": "AccuWeather",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "4652d906c722cb481b6ac16033be8f80",
+                "via_device_id": null,
+                "area_id": "entire_house",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e17da096d2cb3d17304cbc2d70b382a3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "a0d7b954_home-panel"
+                    ]
+                ],
+                "manufacturer": "Home Assistant Community Add-ons",
+                "model": "Home Assistant Add-on",
+                "name": "Home Panel",
+                "sw_version": "2.2.1",
+                "entry_type": "service",
+                "id": "3229eefd1eb62d0f87c70cb2c18e468b",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e04ab5e9e8f73d6f048ab74650cc9a72"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "1d3c7adab3d6e1e0"
+                    ]
+                ],
+                "manufacturer": "OnePlus",
+                "model": "ONEPLUS A5000",
+                "name": "ONEPLUS A5000",
+                "sw_version": "28",
+                "entry_type": null,
+                "id": "bbf5740dca62e3459940213828955f63",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e17da096d2cb3d17304cbc2d70b382a3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "core_configurator"
+                    ]
+                ],
+                "manufacturer": "Official add-ons",
+                "model": "Home Assistant Add-on",
+                "name": "File editor",
+                "sw_version": "5.3.2",
+                "entry_type": "service",
+                "id": "9fb0f19191813a698326ddb8ea443fc0",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e17da096d2cb3d17304cbc2d70b382a3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "core_samba"
+                    ]
+                ],
+                "manufacturer": "Official add-ons",
+                "model": "Home Assistant Add-on",
+                "name": "Samba share",
+                "sw_version": "9.5.1",
+                "entry_type": "service",
+                "id": "a8e327cbc6fed868b262a81e8eb1807d",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e17da096d2cb3d17304cbc2d70b382a3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "a0d7b954_ssh"
+                    ]
+                ],
+                "manufacturer": "Home Assistant Community Add-ons",
+                "model": "Home Assistant Add-on",
+                "name": "SSH & Web Terminal",
+                "sw_version": "9.0.0",
+                "entry_type": "service",
+                "id": "23263ab78ec7fc15e914d88f8bce88e4",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "b3e8de028089414dc403e0c9250a9f3f"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "spotify",
+                        "35zsxj3cfof6h0kbme7lfuy6x"
+                    ]
+                ],
+                "manufacturer": "Spotify AB",
+                "model": "Spotify premium",
+                "name": "Spotify Aditya",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "1992f07f31b44b75e02315ad79c5a313",
+                "via_device_id": null,
+                "area_id": "",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e3ade0e338984a82602f1b8ea551306c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "3f847d24ffd5bc56"
+                    ]
+                ],
+                "manufacturer": "samsung",
+                "model": "SM-T510",
+                "name": "Galaxy Tab",
+                "sw_version": "30",
+                "entry_type": null,
+                "id": "dd98a437270fd59a8f21c2ddad368a3d",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "05c20eb15c7b2742b4c56247edbd6d54"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "50:ec:50:0d:a8:7c"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "xiaomi_miio",
+                        "50:ec:50:0d:a8:7c"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "roborock.vacuum.s5",
+                "name": "Roborock S5",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "7b68080fc07c78385ffe8ce86d89b650",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "abe3813c839e46b3bfab8e919bd9a99b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.03200001dc4f22201979"
+                    ]
+                ],
+                "manufacturer": "Tuya",
+                "model": "switch",
+                "name": "Plants",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "85cd4b345b3fdec8576e9b2012bc77f3",
+                "via_device_id": null,
+                "area_id": "kitchen",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "abe3813c839e46b3bfab8e919bd9a99b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.8844664268c63ade2a6b"
+                    ]
+                ],
+                "manufacturer": "Tuya",
+                "model": "light",
+                "name": "Living room",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "27368d811ded8dc90378acc18cc0529d",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e17da096d2cb3d17304cbc2d70b382a3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "a0d7b954_esphome"
+                    ]
+                ],
+                "manufacturer": "Home Assistant Community Add-ons",
+                "model": "Home Assistant Add-on",
+                "name": "ESPHome",
+                "sw_version": "1.19.4",
+                "entry_type": "service",
+                "id": "89c9a1d2dce381daf60c5047b07261fa",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "fe53db0da108d300aac41ee101679974"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "c4:5b:be:55:8f:d1"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "espressif",
+                "model": "PLATFORMIO_ESP01_1M",
+                "name": "esp1",
+                "sw_version": "1.19.4 (Jul 17 2021, 15:44:13)",
+                "entry_type": null,
+                "id": "f949a7728b475cac701ba4799a5948a0",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "3fa0c169088fb9b7b54c8eed8d975004"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "openweathermap",
+                        "33.78590665669923-"
+                    ]
+                ],
+                "manufacturer": "OpenWeather",
+                "model": null,
+                "name": "OpenWeatherMap",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "8a4af1c401fa9689de37925e29924924",
+                "via_device_id": null,
+                "area_id": "entire_house",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "3fa0c169088fb9b7b54c8eed8d975004"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "openweathermap",
+                        "33.78590665669923--84.41126883029939"
+                    ]
+                ],
+                "manufacturer": "OpenWeather",
+                "model": null,
+                "name": "OpenWeatherMap",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "0878da693590e1662cfdd63f35a61b95",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            }
+        ],
+        "deleted_devices": []
+    }
+}

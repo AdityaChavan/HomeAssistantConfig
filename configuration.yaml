@@ -1,0 +1,23 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+  
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+# Example configuration.yaml entry
+spotify:
+  client_id: 78134370b0c044a39d2c5b75309ae9de
+  client_secret: 22a45a7ed9de43a8ac43ef016c2d66eb
+# Example configuration.yaml entry
+withings:
+  client_id: 19a2588a3d4603c89c77654d8f831e41f6fdcc945b481a4d25eac923a4499dbf
+  client_secret: 9d9e7d18cfba08d7d4f76ca301912c01ff46f353a335a238ceba22bd2f93147e
+# Example configuration.yaml entry
+homeassistant:
+  external_url: https://192.168.1.101

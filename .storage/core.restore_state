@@ -1,0 +1,1690 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.aditya_chavan",
+                "state": "home",
+                "attributes": {
+                    "editable": false,
+                    "id": "aditya_chavan",
+                    "latitude": 33.7859845,
+                    "longitude": -84.4113099,
+                    "gps_accuracy": 16,
+                    "source": "device_tracker.galaxy_tab",
+                    "user_id": "02803ca524344926b738319e76b82cbe",
+                    "friendly_name": "Aditya Chavan"
+                },
+                "last_changed": "2021-07-17T23:44:02.450543+00:00",
+                "last_updated": "2021-08-01T18:58:47.982306+00:00",
+                "context": {
+                    "id": "2fd79c6f6d709722e9c7c65d1f6c3a29",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_battery_level",
+                "state": "17",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "S21 Battery Level",
+                    "icon": "mdi:battery-10",
+                    "device_class": "battery"
+                },
+                "last_changed": "2021-07-30T01:02:18.175234+00:00",
+                "last_updated": "2021-07-30T01:02:18.175234+00:00",
+                "context": {
+                    "id": "3acc7eca748509f34dd0f7b9cb1bc90e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_battery_state",
+                "state": "charging",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Battery State",
+                    "icon": "mdi:battery-plus"
+                },
+                "last_changed": "2021-07-30T00:59:49.801358+00:00",
+                "last_updated": "2021-07-30T00:59:49.801358+00:00",
+                "context": {
+                    "id": "470f9e823199cfe1895154c18d174b05",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_charger_type",
+                "state": "ac",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Charger Type",
+                    "icon": "mdi:power-plug"
+                },
+                "last_changed": "2021-07-30T00:59:49.806024+00:00",
+                "last_updated": "2021-07-30T00:59:49.806024+00:00",
+                "context": {
+                    "id": "ecb6f629c66e524a7f288fa460ad7ada",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_battery_health",
+                "state": "good",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Battery Health",
+                    "icon": "mdi:battery-heart-variant"
+                },
+                "last_changed": "2021-07-17T23:44:31.527603+00:00",
+                "last_updated": "2021-07-17T23:44:31.527603+00:00",
+                "context": {
+                    "id": "86d7db227349c632e01d80c432540a37",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_battery_temperature",
+                "state": "28.2",
+                "attributes": {
+                    "unit_of_measurement": "\u00b0C",
+                    "friendly_name": "SM-G998U1 Battery Temperature",
+                    "icon": "mdi:battery",
+                    "device_class": "temperature"
+                },
+                "last_changed": "2021-07-30T01:01:32.247257+00:00",
+                "last_updated": "2021-07-30T01:01:32.247257+00:00",
+                "context": {
+                    "id": "b6d5011870bdc7a8316f6e2f2366ec3c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_current_version",
+                "state": "2021.6.2-full",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Current Version",
+                    "icon": "mdi:android"
+                },
+                "last_changed": "2021-07-17T23:44:31.532029+00:00",
+                "last_updated": "2021-07-17T23:44:31.532029+00:00",
+                "context": {
+                    "id": "a198ee988808b533555a616a2855b8b5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_app_rx_gb",
+                "state": "0.2496",
+                "attributes": {
+                    "unit_of_measurement": "GB",
+                    "friendly_name": "SM-G998U1 App Rx GB",
+                    "icon": "mdi:radio-tower"
+                },
+                "last_changed": "2021-07-30T01:01:37.543172+00:00",
+                "last_updated": "2021-07-30T01:01:37.543172+00:00",
+                "context": {
+                    "id": "c0ce0425e80f4225f8eb7fefc11868da",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_app_tx_gb",
+                "state": "0.0687",
+                "attributes": {
+                    "unit_of_measurement": "GB",
+                    "friendly_name": "SM-G998U1 App Tx GB",
+                    "icon": "mdi:radio-tower"
+                },
+                "last_changed": "2021-07-30T01:02:53.099393+00:00",
+                "last_updated": "2021-07-30T01:02:53.099393+00:00",
+                "context": {
+                    "id": "8d67d4088f45099fde68c91f92bf525f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_app_memory",
+                "state": "0.058",
+                "attributes": {
+                    "free_memory": 0.081,
+                    "total_memory": 0.14,
+                    "unit_of_measurement": "GB",
+                    "friendly_name": "SM-G998U1 App Memory",
+                    "icon": "mdi:memory"
+                },
+                "last_changed": "2021-07-30T01:03:19.781988+00:00",
+                "last_updated": "2021-07-30T01:03:19.781988+00:00",
+                "context": {
+                    "id": "6e520d6958388a9b9fdf520ef75ca5de",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_app_standby_bucket",
+                "state": "never",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 App Standby Bucket",
+                    "icon": "mdi:android"
+                },
+                "last_changed": "2021-07-17T23:44:31.540710+00:00",
+                "last_updated": "2021-07-17T23:44:31.540710+00:00",
+                "context": {
+                    "id": "f96e10b4aefd61acc574b95a5454ee20",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_app_importance",
+                "state": "foreground_service",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 App Importance",
+                    "icon": "mdi:android"
+                },
+                "last_changed": "2021-07-20T12:31:36.870410+00:00",
+                "last_updated": "2021-07-20T12:31:36.870410+00:00",
+                "context": {
+                    "id": "16640084f0ff1a9edbe0e1ee06939bca",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_ringer_mode",
+                "state": "vibrate",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Ringer Mode",
+                    "icon": "mdi:vibrate"
+                },
+                "last_changed": "2021-07-29T09:57:57.460815+00:00",
+                "last_updated": "2021-07-29T09:57:57.460815+00:00",
+                "context": {
+                    "id": "5b0e59704f7598194df5df20c18e81c5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_audio_mode",
+                "state": "normal",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Audio Mode",
+                    "icon": "mdi:volume-high"
+                },
+                "last_changed": "2021-07-29T12:41:14.619143+00:00",
+                "last_updated": "2021-07-29T12:41:14.619143+00:00",
+                "context": {
+                    "id": "5422c6f085a2272ad2a76f962612feb7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_volume_level_alarm",
+                "state": "11",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Volume Level Alarm",
+                    "icon": "mdi:alarm"
+                },
+                "last_changed": "2021-07-17T23:44:31.554566+00:00",
+                "last_updated": "2021-07-17T23:44:31.554566+00:00",
+                "context": {
+                    "id": "77e9653d7e30afeb00ca9907c44995fd",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_volume_level_call",
+                "state": "8",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Volume Level Call",
+                    "icon": "mdi:phone"
+                },
+                "last_changed": "2021-07-29T21:48:22.332094+00:00",
+                "last_updated": "2021-07-29T21:48:22.332094+00:00",
+                "context": {
+                    "id": "f233fbf1c62f7e62ea491bb25166d2a4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_volume_level_music",
+                "state": "10",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Volume Level Music",
+                    "icon": "mdi:music"
+                },
+                "last_changed": "2021-07-29T22:04:03.565800+00:00",
+                "last_updated": "2021-07-29T22:04:03.565800+00:00",
+                "context": {
+                    "id": "b7d47ada8dcde4936da369d1a295d4f2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_volume_level_ringer",
+                "state": "0",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Volume Level Ringer",
+                    "icon": "mdi:phone-ring"
+                },
+                "last_changed": "2021-07-27T21:51:23.622265+00:00",
+                "last_updated": "2021-07-27T21:51:23.622265+00:00",
+                "context": {
+                    "id": "5199f958b95d243dbad36028e263929c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_bluetooth_connection",
+                "state": "1",
+                "attributes": {
+                    "connected_not_paired_devices": "[]",
+                    "connected_paired_devices": "[00:FA:21:DD:F6:D6]",
+                    "paired_devices": "[67:A3:70:C4:1C:76, E0:D0:83:51:67:88, 00:FA:21:DD:F6:D6, CC:98:8B:AF:88:AE, 41:42:C7:1F:83:2B, 4E:07:29:BA:0A:76]",
+                    "unit_of_measurement": "connection(s)",
+                    "friendly_name": "SM-G998U1 Bluetooth Connection",
+                    "icon": "mdi:bluetooth"
+                },
+                "last_changed": "2021-07-29T21:48:22.339465+00:00",
+                "last_updated": "2021-07-29T21:48:22.339465+00:00",
+                "context": {
+                    "id": "25642f948512af735dc1aaa53a44368a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_do_not_disturb_sensor",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Do Not Disturb Sensor",
+                    "icon": "mdi:do-not-disturb"
+                },
+                "last_changed": "2021-07-17T23:44:31.605020+00:00",
+                "last_updated": "2021-07-17T23:44:31.605020+00:00",
+                "context": {
+                    "id": "b503cfec465e9d27eeba41b4d6c43f06",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_last_reboot",
+                "state": "2021-07-27T12:41:19Z",
+                "attributes": {
+                    "Local Time": "Tue Jul 27 08:41:19 EDT 2021",
+                    "Time in Milliseconds": 1627389679997,
+                    "friendly_name": "SM-G998U1 Last Reboot",
+                    "icon": "mdi:restart",
+                    "device_class": "timestamp"
+                },
+                "last_changed": "2021-07-27T12:42:04.232397+00:00",
+                "last_updated": "2021-07-27T12:42:04.232397+00:00",
+                "context": {
+                    "id": "693d1c37ac9bc0d2cd5119270ea75e71",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_last_update_trigger",
+                "state": "SensorWorker",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Last Update Trigger",
+                    "icon": "mdi:update"
+                },
+                "last_changed": "2021-07-30T00:52:09.027653+00:00",
+                "last_updated": "2021-07-30T00:52:09.027653+00:00",
+                "context": {
+                    "id": "fb307ca5b87bf2633877b564b59f96e6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_wifi_connection",
+                "state": "HiMyNameIsAdi",
+                "attributes": {
+                    "is_hidden": false,
+                    "friendly_name": "SM-G998U1 WiFi Connection",
+                    "icon": "mdi:wifi"
+                },
+                "last_changed": "2021-07-17T23:44:31.611441+00:00",
+                "last_updated": "2021-07-17T23:44:31.611441+00:00",
+                "context": {
+                    "id": "98a06da6a2f9aee940f243b80f53e294",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_wifi_bssid",
+                "state": "86:96:4e:40:fd:e3",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 WiFi BSSID",
+                    "icon": "mdi:wifi"
+                },
+                "last_changed": "2021-07-29T21:48:16.767052+00:00",
+                "last_updated": "2021-07-29T21:48:16.767052+00:00",
+                "context": {
+                    "id": "3bb8ee875a63da38e8e6f31f50f8cb42",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_wifi_ip_address",
+                "state": "192.168.1.251",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 WiFi IP Address",
+                    "icon": "mdi:ip"
+                },
+                "last_changed": "2021-07-27T21:50:32.572012+00:00",
+                "last_updated": "2021-07-27T21:50:32.572012+00:00",
+                "context": {
+                    "id": "6c2c61d8901abfa92df6430f716a28ed",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_wifi_link_speed",
+                "state": "780",
+                "attributes": {
+                    "unit_of_measurement": "Mbps",
+                    "friendly_name": "SM-G998U1 WiFi Link Speed",
+                    "icon": "mdi:wifi-strength-3"
+                },
+                "last_changed": "2021-07-30T00:46:29.899511+00:00",
+                "last_updated": "2021-07-30T00:46:29.899511+00:00",
+                "context": {
+                    "id": "4b2441562e7bec886ad1f0c6c10af67d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_wifi_frequency",
+                "state": "5300",
+                "attributes": {
+                    "unit_of_measurement": "MHz",
+                    "friendly_name": "SM-G998U1 WiFi Frequency",
+                    "icon": "mdi:wifi"
+                },
+                "last_changed": "2021-07-29T21:48:16.768314+00:00",
+                "last_updated": "2021-07-29T21:48:16.768314+00:00",
+                "context": {
+                    "id": "744707bd30199f9005e640c769e46dd8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_wifi_signal_strength",
+                "state": "-36",
+                "attributes": {
+                    "unit_of_measurement": "dBm",
+                    "friendly_name": "SM-G998U1 WiFi Signal Strength",
+                    "icon": "mdi:wifi-strength-3"
+                },
+                "last_changed": "2021-07-30T00:46:04.886671+00:00",
+                "last_updated": "2021-07-30T00:46:04.886671+00:00",
+                "context": {
+                    "id": "3ec24e7734dfd5b5bcb029c88e74d9b0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_public_ip_address",
+                "state": "68.74.215.202",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Public IP Address",
+                    "icon": "mdi:ip"
+                },
+                "last_changed": "2021-07-29T21:48:14.775928+00:00",
+                "last_updated": "2021-07-29T21:48:14.775928+00:00",
+                "context": {
+                    "id": "17ca5992aa1eeb85f8573dcecc368dfe",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_next_alarm",
+                "state": "2021-07-30T13:55:00.000Z",
+                "attributes": {
+                    "Local Time": "Fri Jul 30 09:55:00 EDT 2021",
+                    "Package": "com.android.providers.calendar",
+                    "Time in Milliseconds": 1627653300000,
+                    "friendly_name": "SM-G998U1 Next Alarm",
+                    "icon": "mdi:alarm",
+                    "device_class": "timestamp"
+                },
+                "last_changed": "2021-07-29T21:48:07.843568+00:00",
+                "last_updated": "2021-07-29T21:48:07.843568+00:00",
+                "context": {
+                    "id": "47ef60bb2b9e48b790fd3810e9a04ad8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_internal_storage",
+                "state": "75",
+                "attributes": {
+                    "Free internal storage": "168GB",
+                    "Total internal storage": "224GB",
+                    "unit_of_measurement": "%",
+                    "friendly_name": "SM-G998U1 Internal Storage",
+                    "icon": "mdi:harddisk"
+                },
+                "last_changed": "2021-07-26T06:34:56.769739+00:00",
+                "last_updated": "2021-07-26T06:34:56.769739+00:00",
+                "context": {
+                    "id": "929f78099942680d739c8d3b8807e3aa",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_external_storage",
+                "state": "0",
+                "attributes": {
+                    "free_external_storage": "No SD Card",
+                    "total_external_storage": "No SD Card",
+                    "unit_of_measurement": "%",
+                    "friendly_name": "SM-G998U1 External Storage",
+                    "icon": "mdi:micro-sd"
+                },
+                "last_changed": "2021-07-17T23:44:31.644465+00:00",
+                "last_updated": "2021-07-17T23:44:31.644465+00:00",
+                "context": {
+                    "id": "fe2bdb6d7fb1d2a016c9e322cad02be5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_current_time_zone",
+                "state": "Eastern Standard Time",
+                "attributes": {
+                    "in_daylight_time": true,
+                    "time_zone_id": "America/New_York",
+                    "time_zone_short": "EDT",
+                    "uses_daylight_time": true,
+                    "utc_offset": -14400000,
+                    "friendly_name": "SM-G998U1 Current Time Zone",
+                    "icon": "mdi:map-clock"
+                },
+                "last_changed": "2021-07-17T23:44:31.645751+00:00",
+                "last_updated": "2021-07-17T23:44:31.645751+00:00",
+                "context": {
+                    "id": "c5b417538916f048e0a3ec7d415005a4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_total_rx_gb",
+                "state": "2.903",
+                "attributes": {
+                    "unit_of_measurement": "GB",
+                    "friendly_name": "SM-G998U1 Total Rx GB",
+                    "icon": "mdi:radio-tower"
+                },
+                "last_changed": "2021-07-30T01:00:40.165626+00:00",
+                "last_updated": "2021-07-30T01:00:40.165626+00:00",
+                "context": {
+                    "id": "42c95740030d101cdae76091efd5c4c1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_total_tx_gb",
+                "state": "0.431",
+                "attributes": {
+                    "unit_of_measurement": "GB",
+                    "friendly_name": "SM-G998U1 Total Tx GB",
+                    "icon": "mdi:radio-tower"
+                },
+                "last_changed": "2021-07-30T00:43:09.356717+00:00",
+                "last_updated": "2021-07-30T00:43:09.356717+00:00",
+                "context": {
+                    "id": "ad9b5faf09d148d9cdb41cfe5baa10ab",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_geocoded_location",
+                "state": "14th St NW & Howell Mill Rd NW, Atlanta, GA 30318, USA",
+                "attributes": {
+                    "Administrative Area": "Georgia",
+                    "Country": "United States",
+                    "ISO Country Code": "US",
+                    "Latitude": 33.78585,
+                    "Locality": "Atlanta",
+                    "Longitude": -84.41135,
+                    "Postal Code": "30318",
+                    "Sub Administrative Area": "Fulton County",
+                    "Sub Locality": "null",
+                    "Sub Thoroughfare": "null",
+                    "Thoroughfare": "null",
+                    "friendly_name": "SM-G998U1 Geocoded Location",
+                    "icon": "mdi:map"
+                },
+                "last_changed": "2021-07-30T00:23:47.963270+00:00",
+                "last_updated": "2021-07-30T00:23:47.963270+00:00",
+                "context": {
+                    "id": "2337e6e64fd50ceb581069307bfee079",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_light_sensor",
+                "state": "18",
+                "attributes": {
+                    "unit_of_measurement": "lx",
+                    "friendly_name": "SM-G998U1 Light Sensor",
+                    "icon": "mdi:brightness-5",
+                    "device_class": "illuminance"
+                },
+                "last_changed": "2021-07-30T01:03:08.057149+00:00",
+                "last_updated": "2021-07-30T01:03:08.057149+00:00",
+                "context": {
+                    "id": "d062e8ec8ad7146826303855c0ba6ab5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_pressure_sensor",
+                "state": "981.7",
+                "attributes": {
+                    "unit_of_measurement": "hPa",
+                    "friendly_name": "SM-G998U1 Pressure Sensor",
+                    "icon": "mdi:gauge",
+                    "device_class": "pressure"
+                },
+                "last_changed": "2021-07-30T01:03:19.786257+00:00",
+                "last_updated": "2021-07-30T01:03:19.786257+00:00",
+                "context": {
+                    "id": "287aa4ee093f3ac3b01b053f60215f3f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_proximity_sensor",
+                "state": "far",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Proximity Sensor",
+                    "icon": "mdi:leak"
+                },
+                "last_changed": "2021-07-28T12:42:11.415736+00:00",
+                "last_updated": "2021-07-28T12:42:11.415736+00:00",
+                "context": {
+                    "id": "ec6b671f234664aca9f67e933153b57b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_steps_sensor",
+                "state": "14610",
+                "attributes": {
+                    "unit_of_measurement": "steps",
+                    "friendly_name": "SM-G998U1 Steps Sensor",
+                    "icon": "mdi:walk"
+                },
+                "last_changed": "2021-07-29T21:48:07.866692+00:00",
+                "last_updated": "2021-07-29T21:48:07.866692+00:00",
+                "context": {
+                    "id": "888dfd624fbd77747a11f5154fb93c3d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_detected_activity",
+                "state": "still",
+                "attributes": {
+                    "still": 99,
+                    "unknown": 1,
+                    "friendly_name": "SM-G998U1 Detected Activity",
+                    "icon": "mdi:sleep"
+                },
+                "last_changed": "2021-07-30T00:35:36.363431+00:00",
+                "last_updated": "2021-07-30T00:35:36.363431+00:00",
+                "context": {
+                    "id": "92b76e62a71b167c0a359ef7a8e54e67",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_sleep_segment",
+                "state": "22320000.0",
+                "attributes": {
+                    "end": 1627552721137,
+                    "start": 1627530401137,
+                    "status": "successful",
+                    "unit_of_measurement": "ms",
+                    "friendly_name": "SM-G998U1 Sleep Segment",
+                    "icon": "mdi:sleep"
+                },
+                "last_changed": "2021-07-29T11:21:58.442732+00:00",
+                "last_updated": "2021-07-29T11:21:58.442732+00:00",
+                "context": {
+                    "id": "3d93904bc5fec9d9c214c07360aced29",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_sleep_confidence",
+                "state": "11",
+                "attributes": {
+                    "light": 4,
+                    "motion": 5,
+                    "timestamp": 1627606685000,
+                    "unit_of_measurement": "%",
+                    "friendly_name": "SM-G998U1 Sleep Confidence",
+                    "icon": "mdi:sleep"
+                },
+                "last_changed": "2021-07-30T00:58:06.381823+00:00",
+                "last_updated": "2021-07-30T00:58:06.381823+00:00",
+                "context": {
+                    "id": "e3d9c712c49807735ea30c836ee37753",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_media_session",
+                "state": "Unknown",
+                "attributes": {
+                    "album_com.amazon.kindle": "null",
+                    "artist_com.amazon.kindle": "null",
+                    "duration_com.amazon.kindle": "null",
+                    "media_id_com.amazon.kindle": "null",
+                    "playback_position_com.amazon.kindle": "null",
+                    "playback_state_com.amazon.kindle": "Unknown",
+                    "title_com.amazon.kindle": "null",
+                    "total_media_session_count": 1,
+                    "friendly_name": "SM-G998U1 Media Session",
+                    "icon": "mdi:play-circle"
+                },
+                "last_changed": "2021-07-30T00:46:29.900952+00:00",
+                "last_updated": "2021-07-30T00:46:29.900952+00:00",
+                "context": {
+                    "id": "8c57d12f8c2c4f92629173bcbd73c16a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_phone_state",
+                "state": "idle",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Phone State",
+                    "icon": "mdi:phone"
+                },
+                "last_changed": "2021-07-27T21:52:01.175534+00:00",
+                "last_updated": "2021-07-27T21:52:01.175534+00:00",
+                "context": {
+                    "id": "da471ee99773813b84974206263a117a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_sim_1",
+                "state": "AT&T",
+                "attributes": {
+                    "carrier id": 1187,
+                    "carrier name": "AT&T",
+                    "data roaming": "disable",
+                    "is opportunistic": false,
+                    "iso country code": "us",
+                    "mcc": "310",
+                    "mnc": "410",
+                    "friendly_name": "SM-G998U1 SIM 1",
+                    "icon": "mdi:sim"
+                },
+                "last_changed": "2021-07-17T23:44:31.680467+00:00",
+                "last_updated": "2021-07-17T23:44:31.680467+00:00",
+                "context": {
+                    "id": "37cd259dc472fab6d7806b4114513f00",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_sim_2",
+                "state": "Unavailable",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 SIM 2",
+                    "icon": "mdi:sim"
+                },
+                "last_changed": "2021-07-17T23:44:31.682530+00:00",
+                "last_updated": "2021-07-17T23:44:31.682530+00:00",
+                "context": {
+                    "id": "2b03ca0af2068c717b1083b1f0dd4e90",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_active_notification_count",
+                "state": "6",
+                "attributes": {
+                    "android.appInfo_com.android.systemui": "ApplicationInfo{7d18b9 com.android.systemui}",
+                    "android.appInfo_com.frostnerd.dnschanger": "ApplicationInfo{fab3b03 com.frostnerd.dnschanger}",
+                    "android.appInfo_com.google.android.googlequicksearchbox": "ApplicationInfo{95cafb2 com.google.android.googlequicksearchbox}",
+                    "android.appInfo_com.samsung.android.app.routines": "ApplicationInfo{f353a80 com.samsung.android.app.routines}",
+                    "android.bigText_com.android.systemui": "15% (2 h until full)",
+                    "android.bigText_com.frostnerd.dnschanger": "192.168.1.238\n192.168.1.238\n2001:4860:4860::8888 (Google)\n2001:4860:4860::8844 (Google)",
+                    "android.bigText_com.google.android.googlequicksearchbox": "96\u00b0 / 74\u00b0 \u00b7 Partly cloudy \u00b7 See the full forecast",
+                    "android.bigText_com.samsung.android.app.routines": "Open an app or do an app action: DnsChanger: Open",
+                    "android.colorized_com.frostnerd.dnschanger": false,
+                    "android.colorized_com.samsung.android.app.routines": true,
+                    "android.infoText_com.frostnerd.dnschanger": "null",
+                    "android.infoText_com.google.android.googlequicksearchbox": "null",
+                    "android.largeIcon_com.frostnerd.dnschanger": "null",
+                    "android.largeIcon_com.google.android.googlequicksearchbox": "null",
+                    "android.progressIndeterminate_com.frostnerd.dnschanger": false,
+                    "android.progressIndeterminate_com.google.android.googlequicksearchbox": false,
+                    "android.progressMax_com.frostnerd.dnschanger": 0,
+                    "android.progressMax_com.google.android.googlequicksearchbox": 0,
+                    "android.progress_com.frostnerd.dnschanger": 0,
+                    "android.progress_com.google.android.googlequicksearchbox": 0,
+                    "android.reduced.images_com.android.systemui": true,
+                    "android.reduced.images_com.frostnerd.dnschanger": true,
+                    "android.reduced.images_com.google.android.googlequicksearchbox": true,
+                    "android.reduced.images_com.samsung.android.app.routines": true,
+                    "android.remoteInputHistory_com.frostnerd.dnschanger": "null",
+                    "android.remoteInputHistory_com.google.android.googlequicksearchbox": "null",
+                    "android.showChronometer_com.frostnerd.dnschanger": true,
+                    "android.showChronometer_com.google.android.googlequicksearchbox": false,
+                    "android.showWhen_com.android.systemui": false,
+                    "android.showWhen_com.frostnerd.dnschanger": true,
+                    "android.showWhen_com.google.android.googlequicksearchbox": true,
+                    "android.showWhen_com.samsung.android.app.routines": true,
+                    "android.subText_com.frostnerd.dnschanger": "DNSChanger is active",
+                    "android.subText_com.google.android.googlequicksearchbox": "null",
+                    "android.substName_com.android.systemui": "Settings",
+                    "android.support.v4.app.extra.COMPAT_TEMPLATE_com.google.android.googlequicksearchbox": "android.support.v4.app.NotificationCompat$BigTextStyle",
+                    "android.template_com.android.systemui": "android.app.Notification$BigTextStyle",
+                    "android.template_com.frostnerd.dnschanger": "android.app.Notification$BigTextStyle",
+                    "android.template_com.google.android.googlequicksearchbox": "android.app.Notification$BigTextStyle",
+                    "android.template_com.samsung.android.app.routines": "android.app.Notification$BigTextStyle",
+                    "android.text_com.android.systemui": "15% (2 h until full)",
+                    "android.text_com.frostnerd.dnschanger": "null",
+                    "android.text_com.google.android.googlequicksearchbox": "96\u00b0 / 74\u00b0 \u00b7 Partly cloudy \u00b7 See the full forecast",
+                    "android.text_com.samsung.android.app.routines": "Open an app or do an app action: DnsChanger: Open",
+                    "android.title.big_com.android.systemui": "Cable charging",
+                    "android.title.big_com.google.android.googlequicksearchbox": "Tomorrow's forecast \u00b7 Atlanta",
+                    "android.title.big_com.samsung.android.app.routines": "Arriving at a location running",
+                    "android.title_com.android.systemui": "Cable charging (2 h until full)",
+                    "android.title_com.frostnerd.dnschanger": "Active",
+                    "android.title_com.google.android.googlequicksearchbox": "Tomorrow's forecast \u00b7 Atlanta",
+                    "android.title_com.samsung.android.app.routines": "Arriving at a location running",
+                    "com.android.systemui_2131362955_is_clearable": false,
+                    "com.android.systemui_2131362955_is_ongoing": true,
+                    "com.android.systemui_2131362955_post_time": 1627606791327,
+                    "com.frostnerd.dnschanger_112_is_clearable": false,
+                    "com.frostnerd.dnschanger_112_is_ongoing": true,
+                    "com.frostnerd.dnschanger_112_post_time": 1627595286306,
+                    "com.google.android.googlequicksearchbox_0_is_clearable": true,
+                    "com.google.android.googlequicksearchbox_0_is_ongoing": false,
+                    "com.google.android.googlequicksearchbox_0_post_time": 1627605963516,
+                    "com.samsung.android.app.routines_0_is_clearable": false,
+                    "com.samsung.android.app.routines_0_is_ongoing": true,
+                    "com.samsung.android.app.routines_0_post_time": 1627543695411,
+                    "com.samsung.android.app.routines_106_is_clearable": false,
+                    "com.samsung.android.app.routines_106_is_ongoing": true,
+                    "com.samsung.android.app.routines_106_post_time": 1627605965417,
+                    "unit_of_measurement": "notifications",
+                    "friendly_name": "SM-G998U1 Active Notification Count",
+                    "icon": "mdi:bell-ring"
+                },
+                "last_changed": "2021-07-30T00:59:52.666854+00:00",
+                "last_updated": "2021-07-30T00:59:52.666854+00:00",
+                "context": {
+                    "id": "ee432068d046555d587c9248bc1ba8d7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_last_notification",
+                "state": "17% (1 h 57 m until full)",
+                "attributes": {
+                    "android.appInfo": "ApplicationInfo{d5f48ad com.android.systemui}",
+                    "android.bigText": "17% (1 h 57 m until full)",
+                    "android.reduced.images": true,
+                    "android.showWhen": false,
+                    "android.substName": "Settings",
+                    "android.template": "android.app.Notification$BigTextStyle",
+                    "android.text": "17% (1 h 57 m until full)",
+                    "android.title": "Cable charging (1 h 57 m until full)",
+                    "android.title.big": "Cable charging",
+                    "is_clearable": false,
+                    "is_ongoing": true,
+                    "package": "com.android.systemui",
+                    "post_time": 1627606966346,
+                    "friendly_name": "SM-G998U1 Last Notification",
+                    "icon": "mdi:bell-ring"
+                },
+                "last_changed": "2021-07-30T01:02:47.572406+00:00",
+                "last_updated": "2021-07-30T01:02:47.572406+00:00",
+                "context": {
+                    "id": "74943240c7b79d9bbd4b5f12db2d7683",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sm_g998u1_last_removed_notification",
+                "state": "Charge your phone or tap here to turn on Power saving mode.",
+                "attributes": {
+                    "android.bigText": "Charge your phone or tap here to turn on Power saving mode.",
+                    "android.reduced.images": true,
+                    "android.showWhen": false,
+                    "android.substName": "Device care",
+                    "android.template": "android.app.Notification$BigTextStyle",
+                    "android.text": "Charge your phone or tap here to turn on Power saving mode.",
+                    "android.title": "Battery power 15%",
+                    "is_clearable": true,
+                    "is_ongoing": false,
+                    "package": "com.android.systemui",
+                    "post_time": 1627605788432,
+                    "friendly_name": "SM-G998U1 Last Removed Notification",
+                    "icon": "mdi:bell-ring"
+                },
+                "last_changed": "2021-07-30T00:59:49.816166+00:00",
+                "last_updated": "2021-07-30T00:59:49.816166+00:00",
+                "context": {
+                    "id": "10585e01bb57f27030eab168a25cc269",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sm_g998u1_is_charging",
+                "state": "on",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Is Charging",
+                    "icon": "mdi:power-plug",
+                    "device_class": "plug"
+                },
+                "last_changed": "2021-07-30T00:59:49.804441+00:00",
+                "last_updated": "2021-07-30T00:59:49.804441+00:00",
+                "context": {
+                    "id": "1864d1b0271fc12d308d82168d90b37c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sm_g998u1_app_inactive",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 App Inactive",
+                    "icon": "mdi:timer-outline"
+                },
+                "last_changed": "2021-07-17T23:44:31.700167+00:00",
+                "last_updated": "2021-07-17T23:44:31.700167+00:00",
+                "context": {
+                    "id": "cf7ffda118ad23dc112d77972467e57f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sm_g998u1_headphones",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Headphones",
+                    "icon": "mdi:headphones-off"
+                },
+                "last_changed": "2021-07-17T23:44:31.708291+00:00",
+                "last_updated": "2021-07-17T23:44:31.708291+00:00",
+                "context": {
+                    "id": "c9ecd067cf350b8d02d836068ff6864d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sm_g998u1_mic_muted",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Mic Muted",
+                    "icon": "mdi:microphone"
+                },
+                "last_changed": "2021-07-17T23:44:31.710287+00:00",
+                "last_updated": "2021-07-17T23:44:31.710287+00:00",
+                "context": {
+                    "id": "31e77a1ef47046f31f8b543a9d56c6b3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sm_g998u1_speakerphone",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Speakerphone",
+                    "icon": "mdi:volume-off"
+                },
+                "last_changed": "2021-07-29T12:40:13.603863+00:00",
+                "last_updated": "2021-07-29T12:40:13.603863+00:00",
+                "context": {
+                    "id": "c01d1f16843a66143a5c888bf1950c5c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sm_g998u1_music_active",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Music Active",
+                    "icon": "mdi:music-off"
+                },
+                "last_changed": "2021-07-29T22:04:03.565036+00:00",
+                "last_updated": "2021-07-29T22:04:03.565036+00:00",
+                "context": {
+                    "id": "235e19cdeea1692c817668725899a15b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sm_g998u1_bluetooth_state",
+                "state": "on",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Bluetooth State",
+                    "icon": "mdi:bluetooth"
+                },
+                "last_changed": "2021-07-29T11:25:36.765932+00:00",
+                "last_updated": "2021-07-29T11:25:36.765932+00:00",
+                "context": {
+                    "id": "55bb7bdaca9af6a92ec46a3a02fcf1c6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sm_g998u1_device_locked",
+                "state": "on",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Device Locked",
+                    "icon": "mdi:cellphone-lock"
+                },
+                "last_changed": "2021-07-30T00:46:29.896113+00:00",
+                "last_updated": "2021-07-30T00:46:29.896113+00:00",
+                "context": {
+                    "id": "af9a6ebdb7c3acf27f7cec2998d28bda",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sm_g998u1_device_secure",
+                "state": "on",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Device Secure",
+                    "icon": "mdi:cellphone-key"
+                },
+                "last_changed": "2021-07-17T23:44:31.731328+00:00",
+                "last_updated": "2021-07-17T23:44:31.731328+00:00",
+                "context": {
+                    "id": "6f8e4cd6cb7322fb9ff77d26e5de532e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sm_g998u1_keyguard_locked",
+                "state": "on",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Keyguard Locked",
+                    "icon": "mdi:cellphone-lock"
+                },
+                "last_changed": "2021-07-30T00:46:29.897465+00:00",
+                "last_updated": "2021-07-30T00:46:29.897465+00:00",
+                "context": {
+                    "id": "183d24ea2bbb1313e0145cb4ae1e32fd",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sm_g998u1_keyguard_secure",
+                "state": "on",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Keyguard Secure",
+                    "icon": "mdi:cellphone-key"
+                },
+                "last_changed": "2021-07-17T23:44:31.746734+00:00",
+                "last_updated": "2021-07-17T23:44:31.746734+00:00",
+                "context": {
+                    "id": "91603a721c0b3af121a88a1e1e89b784",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sm_g998u1_mobile_data",
+                "state": "on",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Mobile Data",
+                    "icon": "mdi:signal"
+                },
+                "last_changed": "2021-07-23T01:44:18.408007+00:00",
+                "last_updated": "2021-07-23T01:44:18.408007+00:00",
+                "context": {
+                    "id": "bada40d575d1be0712b12a869528e402",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sm_g998u1_mobile_data_roaming",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Mobile Data Roaming",
+                    "icon": "mdi:toggle-switch-off"
+                },
+                "last_changed": "2021-07-17T23:44:31.750974+00:00",
+                "last_updated": "2021-07-17T23:44:31.750974+00:00",
+                "context": {
+                    "id": "9640896bbdfc9b770a8bed6d3d56b798",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sm_g998u1_wifi_state",
+                "state": "on",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 WiFi State",
+                    "icon": "mdi:wifi"
+                },
+                "last_changed": "2021-07-17T23:44:31.753301+00:00",
+                "last_updated": "2021-07-17T23:44:31.753301+00:00",
+                "context": {
+                    "id": "8b27b9e11ea884f606d29128f269e164",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sm_g998u1_interactive",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Interactive",
+                    "icon": "mdi:cellphone-off"
+                },
+                "last_changed": "2021-07-30T00:46:29.902416+00:00",
+                "last_updated": "2021-07-30T00:46:29.902416+00:00",
+                "context": {
+                    "id": "f4a170cfd2dcb3d524cc8d78c9e7ef09",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sm_g998u1_doze_mode",
+                "state": "off",
+                "attributes": {
+                    "ignoring_battery_optizimations": true,
+                    "friendly_name": "SM-G998U1 Doze Mode",
+                    "icon": "mdi:sleep-off"
+                },
+                "last_changed": "2021-07-30T00:23:45.150157+00:00",
+                "last_updated": "2021-07-30T00:23:45.150157+00:00",
+                "context": {
+                    "id": "4dd5cf51b3c809735d574d7e11270d18",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sm_g998u1_power_save",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "SM-G998U1 Power Save",
+                    "icon": "mdi:battery-plus"
+                },
+                "last_changed": "2021-07-29T09:57:57.474382+00:00",
+                "last_updated": "2021-07-29T09:57:57.474382+00:00",
+                "context": {
+                    "id": "22420dd221a2920b61dbbc3a677aa0ea",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.oneplus_a5000_battery_level",
+                "state": "100",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "OnePlus Battery Level",
+                    "icon": "mdi:battery",
+                    "device_class": "battery"
+                },
+                "last_changed": "2021-07-17T23:44:31.766214+00:00",
+                "last_updated": "2021-07-18T13:52:15.036548+00:00",
+                "context": {
+                    "id": "8ce227007012195ead2e3380a11af9e1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.oneplus_a5000_battery_state",
+                "state": "full",
+                "attributes": {
+                    "friendly_name": "ONEPLUS A5000 Battery State",
+                    "icon": "mdi:battery-charging"
+                },
+                "last_changed": "2021-07-17T23:44:31.768012+00:00",
+                "last_updated": "2021-07-17T23:44:31.768012+00:00",
+                "context": {
+                    "id": "01e511e7ca30a08a957663f9d1fa4b93",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.oneplus_a5000_charger_type",
+                "state": "ac",
+                "attributes": {
+                    "friendly_name": "ONEPLUS A5000 Charger Type",
+                    "icon": "mdi:power-plug"
+                },
+                "last_changed": "2021-07-17T23:44:31.769945+00:00",
+                "last_updated": "2021-07-17T23:44:31.769945+00:00",
+                "context": {
+                    "id": "7fa50d166d3ea318b6de183db9764396",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.oneplus_a5000_battery_health",
+                "state": "good",
+                "attributes": {
+                    "friendly_name": "ONEPLUS A5000 Battery Health",
+                    "icon": "mdi:battery-heart-variant"
+                },
+                "last_changed": "2021-07-17T23:44:31.777836+00:00",
+                "last_updated": "2021-07-17T23:44:31.777836+00:00",
+                "context": {
+                    "id": "115640e9f6c979fc67a9082d82bb1abb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.oneplus_a5000_battery_temperature",
+                "state": "26.7",
+                "attributes": {
+                    "unit_of_measurement": "\u00b0C",
+                    "friendly_name": "ONEPLUS A5000 Battery Temperature",
+                    "icon": "mdi:battery",
+                    "device_class": "temperature"
+                },
+                "last_changed": "2021-07-17T23:44:31.779592+00:00",
+                "last_updated": "2021-07-17T23:44:31.779592+00:00",
+                "context": {
+                    "id": "d5642b80e725f87d754c7d5607d1e874",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.oneplus_a5000_is_charging",
+                "state": "on",
+                "attributes": {
+                    "friendly_name": "ONEPLUS A5000 Is Charging",
+                    "icon": "mdi:power-plug",
+                    "device_class": "plug"
+                },
+                "last_changed": "2021-07-17T23:44:31.787098+00:00",
+                "last_updated": "2021-07-17T23:44:31.787098+00:00",
+                "context": {
+                    "id": "e16541d96e4c1b4c15bf642a465fcc50",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.galaxy_tab_battery_level",
+                "state": "52",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Tablet Battery Level",
+                    "icon": "mdi:battery-50",
+                    "device_class": "battery"
+                },
+                "last_changed": "2021-08-01T18:54:48.205853+00:00",
+                "last_updated": "2021-08-01T18:54:48.205853+00:00",
+                "context": {
+                    "id": "7b2e466179d3e467b28a2def607fd3b5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.galaxy_tab_battery_state",
+                "state": "discharging",
+                "attributes": {
+                    "friendly_name": "Galaxy Tab Battery State",
+                    "icon": "mdi:battery-minus"
+                },
+                "last_changed": "2021-08-01T12:31:02.696548+00:00",
+                "last_updated": "2021-08-01T12:31:02.696548+00:00",
+                "context": {
+                    "id": "eeaca63095c6c4743193f203b5d6d930",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.galaxy_tab_charger_type",
+                "state": "none",
+                "attributes": {
+                    "friendly_name": "Galaxy Tab Charger Type",
+                    "icon": "mdi:battery"
+                },
+                "last_changed": "2021-08-01T12:31:02.699224+00:00",
+                "last_updated": "2021-08-01T12:31:02.699224+00:00",
+                "context": {
+                    "id": "d743697cf762b9b8e9d0274c1a2cfd4b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.galaxy_tab_battery_health",
+                "state": "good",
+                "attributes": {
+                    "friendly_name": "Galaxy Tab Battery Health",
+                    "icon": "mdi:battery-heart-variant"
+                },
+                "last_changed": "2021-07-17T23:44:31.807171+00:00",
+                "last_updated": "2021-07-17T23:44:31.807171+00:00",
+                "context": {
+                    "id": "110cac68ba7b6615df9583639afb05f5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.galaxy_tab_battery_temperature",
+                "state": "30.4",
+                "attributes": {
+                    "unit_of_measurement": "\u00b0C",
+                    "friendly_name": "Galaxy Tab Battery Temperature",
+                    "icon": "mdi:battery",
+                    "device_class": "temperature"
+                },
+                "last_changed": "2021-08-01T18:58:48.679034+00:00",
+                "last_updated": "2021-08-01T18:58:48.679034+00:00",
+                "context": {
+                    "id": "b6ef175b98868a855bbce503a2a7f77b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.galaxy_tab_is_charging",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Galaxy Tab Is Charging",
+                    "icon": "mdi:power-plug-off",
+                    "device_class": "plug"
+                },
+                "last_changed": "2021-08-01T12:31:02.697981+00:00",
+                "last_updated": "2021-08-01T12:31:02.697981+00:00",
+                "context": {
+                    "id": "d1b7ff53cb866c5f2550e15460622e8e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.sm_g998u1",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "latitude": 33.7858942,
+                    "longitude": -84.4112711,
+                    "gps_accuracy": 13,
+                    "altitude": 266.0,
+                    "course": 0,
+                    "speed": 0,
+                    "vertical_accuracy": 4,
+                    "friendly_name": "SM-G998U1"
+                },
+                "last_changed": "2021-08-01T18:56:34.143996+00:00",
+                "last_updated": "2021-08-01T18:56:34.143996+00:00",
+                "context": {
+                    "id": "14b21997de2e501f8414867cad722550",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.oneplus_a5000",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "latitude": 33.7858816,
+                    "longitude": -84.4112981,
+                    "gps_accuracy": 15,
+                    "altitude": 269.0,
+                    "course": 0,
+                    "speed": 0,
+                    "vertical_accuracy": 5,
+                    "friendly_name": "ONEPLUS A5000"
+                },
+                "last_changed": "2021-07-17T23:44:33.937122+00:00",
+                "last_updated": "2021-07-17T23:44:33.937122+00:00",
+                "context": {
+                    "id": "64f67b337f192df0a391389dc5fdd08b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.galaxy_tab",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "latitude": 33.7859845,
+                    "longitude": -84.4113099,
+                    "gps_accuracy": 16,
+                    "altitude": 268.0,
+                    "course": 0,
+                    "speed": 0,
+                    "vertical_accuracy": 4,
+                    "friendly_name": "Galaxy Tab"
+                },
+                "last_changed": "2021-08-01T18:58:47.981236+00:00",
+                "last_updated": "2021-08-01T18:58:47.981236+00:00",
+                "context": {
+                    "id": "5e58dd060887654ccf5856a5977662aa",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-01T18:59:42.198174+00:00"
+        }
+    ]
+}
